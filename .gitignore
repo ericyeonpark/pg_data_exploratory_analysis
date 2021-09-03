@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Homework Instructions
+Homework_Instructions.pdf
