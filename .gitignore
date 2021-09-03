@@ -130,3 +130,9 @@ dmypy.json
 
 # Homework Instructions
 Homework_Instructions.pdf
+
+# CSV data files
+iaps.CSV
+sessions.CSV
+spendevents.CSV
+users.CSV
