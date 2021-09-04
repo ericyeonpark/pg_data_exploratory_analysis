@@ -136,3 +136,6 @@ iaps.CSV
 sessions.CSV
 spendevents.CSV
 users.CSV
+
+# Pickeled models
+final_model_Eric_Park.sav
