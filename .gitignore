@@ -128,8 +128,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Homework Instructions
+# Homework Instructions and Submission
 Homework_Instructions.pdf
+Pocket_Gems_Data_Analyst_Submission_Eric_Park.pdf
+Pocket_Gems_Eric_Park.ipynb
 
 # CSV data files
 iaps.CSV
