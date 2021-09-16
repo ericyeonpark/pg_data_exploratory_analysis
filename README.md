@@ -1,5 +1,5 @@
 # Purpose
-Explore data provided by a mobile video game developer company. Goal is to answer the business question found below.
+Explore data provided by a mobile video game developer company. Goal is analyze the files in order to identify a target audience for a targeted promotion in order to increase revenue. More context for the business question and context can be found at the bottom.
 
 # Business Question and Context
 "The goal is to devise a scheme to maximize incremental revenue. We’ll
