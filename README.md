@@ -44,8 +44,8 @@ negative, again indicating that gems are flowing out of our bank account.
 is made in spendevents.
 - PremiumChoice records where the user spends gems. In these records, the amount field
 is positive, indicating that gems are flowing out of the user’s bank account.
-Assignment
 
+Assignment
 1. Specify a target group of users for the promotion. Briefly justify your choice using the
 sample data. (Recommended time: 60 mins for exploratory data analysis, 30 mins for
 deciding on parameters of the target group.)
