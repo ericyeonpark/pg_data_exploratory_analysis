@@ -1,6 +1,13 @@
 # Purpose
 Explore data provided by a mobile video game developer company. Goal is analyze the files in order to identify a target audience for a targeted promotion in order to increase revenue. More context for the business question and context can be found at the bottom.
 
+# Files
+- **users.csv**: User data of the mobile game, including user ID and install date
+- **sessions.csv**: Session history of each user, including date and session number
+- **iaps.csv**: Purchase history of users of the mobile game
+- **spendevents.csv**: Spending and purchase history of users of the mobile game. Includes in-game currency spending and purchase history
+- **data_exploration_Eric_Park.ipynb**: jupyter notebook answering business quesion and analyzing data
+
 # Business Question and Context
 "The goal is to devise a scheme to maximize incremental revenue. We’ll
 actually specify the promotion to be offered, namely, a two-for-one sale. What we want you to
