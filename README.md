@@ -11,29 +11,29 @@ learning model in Python to predict a user’s probability of conversion.
 
 We’ve provided sample data for a group of users who installed during the first quarter of 2019.
 The data includes:
-● User data, including user ID and install date
-● Session history, including date and session number
-● Purchase history, including date and amount
-● Spending (and earning) history, including date, currency, and amount
+- User data, including user ID and install date
+- Session history, including date and session number
+- Purchase history, including date and amount
+- Spending (and earning) history, including date, currency, and amount
 ‘Spending’ takes place when a user exchanges game currency (usually ‘gems’) for something of
 perceived value, such as a new outfit. Game currency can be earned during gameplay, but the
 bulk of it is obtained by making cash purchases, which are recorded in the ‘iaps’
 (in-app-purchases) table.
 The data itself is contained in four .csv files:
-● users.csv: user_id, install_date, lang, country, hw_ver, os_ver
-● sessions.csv: user_id, ts, date, session_num, last_session_termination_type
-● iaps.csv: user_id, ts, date, prod_name, prod_type, rev
-● spendevents.csv: user_id, ts, date, story, chapter, spendtype, currency, amount
+- users.csv: user_id, install_date, lang, country, hw_ver, os_ver
+- sessions.csv: user_id, ts, date, session_num, last_session_termination_type
+- iaps.csv: user_id, ts, date, prod_name, prod_type, rev
+- spendevents.csv: user_id, ts, date, story, chapter, spendtype, currency, amount
 Note: Revenue is recorded in the ‘rev’ field and is measured in cents.
 Additional Note: To fully understand how the spendevents table works, please filter to the
 user_id ‘2062’, and then order the results by ts. You'll see three types of spendtype:
-● earnGemsCounter records where the user earns gems. In these records, the amount
+- earnGemsCounter records where the user earns gems. In these records, the amount
 field is negative, indicating that gems are flowing out of our bank account.
-● IAP records where the user purchases gems. In these records, the amount field is also
+- IAP records where the user purchases gems. In these records, the amount field is also
 negative, again indicating that gems are flowing out of our bank account.
-○ In this case, the revenue is recorded in the iaps table and a corresponding entry
+    - In this case, the revenue is recorded in the iaps table and a corresponding entry
 is made in spendevents.
-● PremiumChoice records where the user spends gems. In these records, the amount field
+- PremiumChoice records where the user spends gems. In these records, the amount field
 is positive, indicating that gems are flowing out of the user’s bank account.
 Assignment
 
